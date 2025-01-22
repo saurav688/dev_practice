@@ -1,0 +1,30 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color:black;
+    display: grid;
+    /* grid-template-columns:100px 100px 100px  100px;  */
+    /* grid-template-rows: 50px 50px 50px 50px ; */
+     grid-template-rows: repeat(3, 1fr); /*//fr means 1fraction of 100% width */
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    grid-gap: 12px 30px;
+}  
+
+.class{
+    /* width: 100px; */
+    /* height: 50px; */
+    border: 2px solid black;
+    background-color: greenyellow;
+    /* display: grid; */
+    text-align: center;
+
+}
+.item{
+    grid-column: 1/4;
+
+}
+.for{
+    grid-column:1/span 2;
+}
