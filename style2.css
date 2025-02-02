@@ -1,0 +1,57 @@
+/* h1{
+    color:pink
+}
+#greet{
+    color: yellow;
+
+}
+.myclass {
+    color: brown;
+} */
+ /* h1{
+    color: rgb(76, 83, 213);
+ }
+ button{
+background-color: black;
+color: white;
+ }
+ .userbtn{ 
+    
+    background-color:aqua ;
+ }
+ * {
+    font-family: 'Courier New', Courier, monospace;
+ } */
+ /* color pallete */
+ #outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+ }
+ #red {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: red;
+ }
+
+ #green {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: green;
+ }
+
+ #yellow {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: yellow;
+ }
+
