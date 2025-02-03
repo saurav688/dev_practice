@@ -1,0 +1,114 @@
+*{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: blue;
+}
+h3{
+    color: red;
+    fkdlkd
+}
+#login{
+    color: white;
+}
+/* git config --global --list
+git add .
+git init
+git add .
+git status
+git commit -m "hello"
+git remote add origin https://github.com/saurav688/hello.git */
+/* git push -u origin main */
+/* id selector */
+#signup{
+    background-color: red;
+    color: white;
+}
+/* class */
+.upvote{
+    background-color: green;
+}
+#myid p{
+    color: green;
+}
+
+/* descendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: greenyellow;
+}
+/* sibling combinator */
+p +h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    color: aqua;
+    background-color:red ;
+}
+/* child combinator */
+
+div > input{
+    background-color: chartreuse;
+}
+/* attribute selector */
+
+input[type="text"] {
+    color: red;
+}
+input[type= "password"] {
+    color: green;
+}
+input[type]{
+    background-color: aqua;
+}
+/* pseudo codes */
+button:hover {
+    background-color: black;
+    color: white;
+}
+/* hover class */
+h3:hover{
+    text-decoration: none;
+}
+/* active class */
+button:active {
+    
+    background-color: hotpink;
+}
+p:active {
+    font-weight: bold;
+    color: green;
+}
+ 
+input[type="radio"]:checked + label {
+    color:red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color:rgb(14, 226, 177) ;
+}
+h1::first-letter{
+    color: black;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection{
+    color: rgb(218, 246, 116);
+}
+h3{
+    background-color: rgb(106, 0, 255);
+}
+h3{
+    background-color: rgb(226, 234, 10);
+}
+/* 1. id>class>element  
+2. more selector > less selector
+3. if specificity same then check cascading property*/
