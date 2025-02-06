@@ -1,0 +1,29 @@
+/* #diff{
+   width: 400px; 
+   height: 200px;
+   background-color: green;
+ background-image: url("saurav.jpg");
+   margin: 10px auto;
+   background-size: cover;
+   color: white;
+} */
+.card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 2px 2px 8px black;
+    margin: 20px ;
+    border-radius:5px ;
+    transition: 1s;
+}
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+}
+.desc{
+  padding: 0 2px 0 2px;
+}
+.card:hover{
+  box-shadow: 2px 8px 16px rgb(238, 149, 6);
+}
