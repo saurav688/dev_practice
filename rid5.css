@@ -1,0 +1,97 @@
+/* h2{
+    background-color: blue;
+    color: aqua;
+} */
+
+ /* .hello{
+    background: -webkit-linear-gradient(red, orange, white);
+
+ }
+
+ .man{
+background: linear-gradient(green, white, rgb(71, 184, 207));
+ }
+
+ .bag{
+    background: linear-gradient(yellow,pink, white);
+ }
+ .list{
+    background: linear-gradient(yellow,pink, white);
+ }
+ .list2{
+    background: linear-gradient(yellow,pink, white);
+ } */
+
+ [type="text"]{
+   background-color: aqua;
+ }
+
+ /* group selector */
+ h2,h3,#id1,.class,{
+   background-color: brown;
+ }
+
+ #container{
+   width: 400px;
+   height: 400px;
+border: 4px solid black;
+   background:linear-gradient(violet, white, red);
+   
+   
+ }
+ .wel{
+   color: black;
+   text-align: center;
+ }
+ h2{
+   text-align: center;
+   
+ }
+ h3{
+   text-align: end;
+ }
+ h4{
+   text-align: right;
+   background-color: yellow;
+ }
+ h5{
+   text-align: left;
+ }
+ 
+#head4{
+   background-color: blue;
+}
+.para1{
+  text-decoration: line-through;
+}
+.para2{
+  text-decoration:overline;
+}
+.para3{
+  text-decoration:underline;
+}
+.para4{
+  text-decoration:underline overline line-through;
+}
+
+
+.para11{
+  text-transform: capitalize;
+}
+.para22{
+  text-transform: lowercase;
+}
+.para33{
+  text-transform: uppercase;
+}
+.para44{
+  text-transform: none;
+}
+
+#haye{
+  text-shadow: 2px 2px 2px red;
+}
+.sunny{
+  text-indent: 60px;
+  text-emphasis: triangle;
+}
