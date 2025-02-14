@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">number-1</label>
+        <input type="text" id="n1" autocomplete="off"><br><br>
+        <label for="">number-2</label>
+        <input type="text" id="n2" autocomplete="off"><br><br>
+        <button type="button" onclick="add()">add</button><br><br>
+        <button type="button" onclick="sub()">sub</button><br><br>
+        <button type="button" onclick="mul()">mul</button><br><br>
+        <label for="">result</label>
+        <input type="text" id="ress">
+    </form>
+    <script>
+        function add() {
+            let num_1=Number(document.getElementById("n1").value)
+            let num_2=Number(document.getElementById("n2").value)
+            // console.log("number-1='num_1)
+            // console.log( "number-2="num_2)
+            let sum=num_1+num_2 
+            document.getElementById("ress").value=sum
+        }
+        function sub() {
+            let num_1=Number(document.getElementById("n1").value)
+            let num_2=Number(document.getElementById("n2").value)
+            // console.log("number-1='num_1)
+            // console.log( "number-2="num_2)
+            let sub=num_1-num_2 
+            document.getElementById("ress").value=sub
+        }
+        function mul() {
+            let num_1=Number(document.getElementById("n1").value)
+            let num_2=Number(document.getElementById("n2").value)
+            // console.log("number-1='num_1)
+            // console.log( "number-2="num_2)
+            let mul=num_1*num_2 
+            document.getElementById("ress").value=mul
+        }
+    </script> //create a table to add five heaading take heading yoursself inside first to heading create a form and  last three heading nested list o and ul and description
+</body>
+</html>
