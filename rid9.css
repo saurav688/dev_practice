@@ -1,0 +1,61 @@
+.box{
+    width: 400px;
+    height: 400px;
+}
+*{
+    margin: 20px;
+}
+
+.box1{
+    background-color: blue;
+    border-top: 10px solid yellow;
+    
+    border-bottom:10px solid rgb(244, 11, 11); 
+    border-left: 10px solid green;
+    border-right: 10px solid yellowgreen;
+    /* border-radius: 50%;
+     */
+     border-top-left-radius: 80%;
+     border-bottom-left-radius: 80%;
+     border-bottom-right-radius: 80%;
+     margin-top: 70px;
+    
+
+}
+.box2{
+    box-sizing:border-box
+    background-color: rgb(23, 232, 131);
+    border-top-width: 20px ;
+    border-top-style: double;
+    border-top-color: red;
+    
+    border-bottom:10px solid rgb(244, 11, 11); 
+    border-left: 10px solid green;
+    border-right: 10px solid yellowgreen;
+}
+.box3{
+    background-color: rgb(55, 208, 182);
+    border-top: 10px solid yellow;
+    
+    border-bottom:10px solid rgb(244, 11, 11); 
+    border-left: 10px solid green;
+    border-right: 10px solid yellowgreen;
+}
+.box4{
+    background-color: rgb(232, 212, 35);
+    border-top: 10px solid yellow;
+    
+    border-bottom:10px solid rgb(244, 11, 11); 
+    border-left: 10px solid green;
+    border-right: 10px solid yellowgreen;
+}
+
+.box5{
+    background-image: url(saurav.jpg);
+    border: 2px solid black;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+    overflow: scroll;
+    color: white;
+}
