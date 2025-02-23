@@ -1,0 +1,43 @@
+.box3{
+    width: 1200px;
+    height: 1200px;
+    border: 2px solid black;
+    position: relative;
+
+}
+.box1{
+    position: fixed;
+    /* left: 500px; */
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    z-index: 1;
+    background-color: aqua;
+}
+
+.box2{
+    position: relative;
+    top: 12vh;
+    width: 1200px;
+    height: 1200px;
+    border: 2px solid black;
+    
+}
+
+#model2{
+    position: absolute;
+    top: 0px;
+    border: 2px solid red;
+    width: 50px;
+background-color: green;
+height: 50px;
+left: 20px;
+}
+#model1{
+    position: absolute;
+    
+    border: 2px solid red;
+width: 50px;
+height: 50px;
+background-color: aqua;
+}
