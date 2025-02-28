@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(saurav.jpg);
+    background-size: cover;
+}
+.menu-bar{
+    background-color: darkblue;
+    color: white;
+   font-weight: bold;
+   text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    padding: 20px;
+    /* background-color: red; */
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: red;
+    border-radius: 10px;
+    /* padding: 20px; */
+
+}
+ /* .menu-bar ul li:hover{
+    background-color: red;
+    border-radius: 20px;
+
+} */
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    /* background-color: aqua;
+     */
+     background-color: black;
+     margin-left: 30px;
+     margin-top: 10px;
+     border-radius: 10px;
+     width: 250px;
+     /* padding: 20px; */
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    border-bottom: solid white;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+/* #dd1{
+    border-bottom: none;
+} */
+
+.fa-greater-than{
+    float: right;
+    /* padding-left: 20px; */
+  
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.raj:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-left: 170px;
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    /* color: green; */
+    /* width: 350px;
+    height: 60vh; */
+}
