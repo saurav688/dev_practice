@@ -1,0 +1,32 @@
+#container{
+    background-color: aqua;
+    border-radius: 2px;
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.head{
+    background-color: blue;
+}
+.para{
+    font-weight: bold;
+    color: blue;
+    background-color: yellow;
+}
+h2, p{
+    font-size: larger;
+    color: chartreuse;
+    background-color: black;
+}
+[type="text"]{
+    color: rgb(14, 13, 13);
+    background-color: cornsilk;
+    border: 1px;
+}
+button{
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+
