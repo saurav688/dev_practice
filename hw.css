@@ -1,0 +1,19 @@
+.rid{
+    color: #3f20bc;
+    
+}
+fieldset{
+    background: linear-gradient(yellow, orange);
+}
+label{
+    color:black;
+}
+input{
+    background-color: rgba(66, 151, 177, 0.658);
+}
+input:hover{
+    background-color: aqua;
+}
+button{
+    background: linear-gradient(rgb(255, 94, 0), yellow);
+}
